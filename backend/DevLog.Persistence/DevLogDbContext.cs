@@ -1,7 +1,7 @@
 ﻿using DevLog.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace DevLog.Infrastructure.Persistence
+namespace DevLog.Persistence
 {
     /// <summary>
     /// Контекст базы данных DevLog.

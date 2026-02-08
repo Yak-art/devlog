@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace DevLog.Infrastructure.Persistence.Configurations
+namespace DevLog.Persistence.Configurations
 {
     public class TimeEntryConfiguration : IEntityTypeConfiguration<TimeEntry>
     {

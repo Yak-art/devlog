@@ -1,9 +1,8 @@
 ﻿using DevLog.Application.Interfaces;
 using DevLog.Domain.Entities;
-using DevLog.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
-namespace DevLog.Infrastructure.Repositories
+namespace DevLog.Persistence.Repositories
 {
     public class TimeEntryRepository : ITimeEntryRepository
     {

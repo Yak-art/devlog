@@ -1,10 +1,9 @@
 ﻿using DevLog.Application.Interfaces;
-using DevLog.Infrastructure.Persistence;
-using DevLog.Infrastructure.Repositories;
+using DevLog.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DevLog.Infrastructure
+namespace DevLog.Persistence
 {
     public static class DependencyInjection
     {
